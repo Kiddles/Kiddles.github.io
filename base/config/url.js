@@ -1,8 +1,8 @@
 var url = (function(){
     var mock = false;
     var prodEnv = require('./dev.env');
-    var baseUrl = process.env.BASE_PATH + '/base';
-    var url = process.env.API_ROOT + '/finance';
+    // var baseUrl = process.env.BASE_PATH + '/base';
+    // var url = process.env.API_ROOT + '/finance';
     console.log(url);
     if(mock) {
         return {
@@ -12,7 +12,7 @@ var url = (function(){
         return {
             MOCK: mock,
             //common
-            getOrgTree: baseUrl + '/web/office/allOfficeTree',
+            // getOrgTree: baseUrl + '/web/office/allOfficeTree',
         }
     }
 })();
