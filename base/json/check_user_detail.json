@@ -1,0 +1,15 @@
+{
+  "code": "string",
+  "message": "string",
+  "data": {
+    "personId": 0,
+    "userName": "sunshine",
+    "userRealName": "daisy",
+    "idcardCode": "2323546576879",
+    "idcardPhotoAbove": "string",
+    "idcardPhotoBelow": "string",
+    "idcardValidateStart": "string",
+    "idcardValidateEnd": "string"
+  },
+  "nonBizError": true
+}

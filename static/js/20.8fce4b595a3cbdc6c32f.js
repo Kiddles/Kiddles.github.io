@@ -1,0 +1,1 @@
+webpackJsonp([20],{711:function(n,t,e){var r=e(267)(null,e(826),null,null);n.exports=r.exports},826:function(n,t){n.exports={render:function(){var n=this,t=n.$createElement;return(n._self._c||t)("div",{staticClass:"content"},[n._v("\n\t人员信息配置\n")])},staticRenderFns:[]}}});

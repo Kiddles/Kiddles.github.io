@@ -1,0 +1,66 @@
+{
+  "code": "string",
+  "message": "string",
+  "data": {
+    "pageNum": 0,
+    "pageSize": 0,
+    "size": 0,
+    "startRow": 0,
+    "endRow": 0,
+    "total": 0,
+    "pages": 0,
+    "list": [
+      {
+        "id": 0,
+        "estateId": "11111",
+        "estateName": "滨江花园",
+        "commitTime": "2017-05-03T02:49:38.737Z",
+        "applicant": "钱报地产",
+        "performanceName": "拍房宝专场112",
+        "noApprovedReason": "房源名称等两项不通过",
+        "approver": "倪晓毛",
+        "approveStatus": "审核不通过",
+        "approveStatusName": "string"
+      },
+      {
+        "id": 1,
+        "estateId": "11112",
+        "estateName": "滨江花园1",
+        "commitTime": "2017-05-03T02:49:38.737Z",
+        "applicant": "钱报地产",
+        "performanceName": "拍房宝专场112",
+        "noApprovedReason": "",
+        "approver": "倪晓毛",
+        "approveStatus": "待审核",
+        "approveStatusName": "string"
+      },
+      {
+        "id": 2,
+        "estateId": "11113",
+        "estateName": "滨江花园2",
+        "commitTime": "2017-05-03T02:49:38.737Z",
+        "applicant": "钱报地产",
+        "performanceName": "拍房宝专场112",
+        "noApprovedReason": "",
+        "approver": "倪晓毛",
+        "approveStatus": "审核通过",
+        "approveStatusName": "string"
+      }
+    ],
+    "prePage": 0,
+    "nextPage": 0,
+    "isFirstPage": true,
+    "isLastPage": true,
+    "hasPreviousPage": true,
+    "hasNextPage": true,
+    "navigatePages": 0,
+    "navigatepageNums": [
+      0
+    ],
+    "navigateFirstPage": 0,
+    "navigateLastPage": 0,
+    "lastPage": 0,
+    "firstPage": 0
+  },
+  "nonBizError": true
+}

@@ -1,0 +1,43 @@
+{
+  "code": "string",
+  "message": "string",
+  "data": {
+    "pageNum": 0,
+    "pageSize": 0,
+    "size": 0,
+    "startRow": 0,
+    "endRow": 0,
+    "total": 0,
+    "pages": 0,
+    "list": [
+      {
+        "id": 0,
+        "enterpriseName": "string",
+        "loginName": "string",
+        "contactPersonName": "string",
+        "permissionStatus": "string",
+        "enterpriseDeposit": 0,
+        "depositStatus": "string",
+        "estateCount": 0,
+        "performanceCount": 0,
+        "sailedCount": 0,
+        "suntotalPrice": 0
+      }
+    ],
+    "prePage": 0,
+    "nextPage": 0,
+    "isFirstPage": true,
+    "isLastPage": true,
+    "hasPreviousPage": true,
+    "hasNextPage": true,
+    "navigatePages": 0,
+    "navigatepageNums": [
+      0
+    ],
+    "navigateFirstPage": 0,
+    "navigateLastPage": 0,
+    "firstPage": 0,
+    "lastPage": 0
+  },
+  "nonBizError": true
+}

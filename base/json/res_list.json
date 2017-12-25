@@ -1,0 +1,42 @@
+{
+  "code": "string",
+  "message": "string",
+  "data": {
+    "pageNum": 0,
+    "pageSize": 0,
+    "size": 0,
+    "startRow": 0,
+    "endRow": 0,
+    "total": 0,
+    "pages": 0,
+    "list": [
+      {
+        "id": 0,
+        "estateId": "string",
+        "estateName": "string",
+        "estateStatus": "string",
+        "estateStatusName": "string",
+        "startTime": "2017-05-02T02:12:50.991Z",
+        "endTime": "2017-05-02T02:12:50.991Z",
+        "hotFlag": true,
+        "enrollNum": 0,
+        "bidNum": 0
+      }
+    ],
+    "prePage": 0,
+    "nextPage": 0,
+    "isFirstPage": true,
+    "isLastPage": true,
+    "hasPreviousPage": true,
+    "hasNextPage": true,
+    "navigatePages": 0,
+    "navigatepageNums": [
+      0
+    ],
+    "navigateFirstPage": 0,
+    "navigateLastPage": 0,
+    "firstPage": 0,
+    "lastPage": 0
+  },
+  "nonBizError": true
+}

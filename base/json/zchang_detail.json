@@ -1,0 +1,16 @@
+{
+  "code": "string",
+  "message": "string",
+  "data": {
+    "performanceId": 0,
+    "performanceName": "绿城专场",
+    "performanceType": "即时拍",
+    "performanceStatus": "正在热拍",
+    "applicant": "绿城房产",
+    "startTime": "2017-05-02T02:12:51.367Z",
+    "endTime": "2017-05-02T02:12:51.367Z",
+    "performanceTopPic": "string",
+    "estateAmountLlimit": 0
+  },
+  "nonBizError": true
+}

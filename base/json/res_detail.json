@@ -1,0 +1,25 @@
+{
+  "code": "string",
+  "message": "string",
+  "data": {
+    "estateId": "12312",
+    "estateName": "绿城",
+    "estateStatus": "正在热拍",
+    "startTime": "2017-05-02T02:12:50.983Z",
+    "endTime": "2017-05-02T02:12:50.983Z",
+    "auctionPrice": "1,200,000",
+    "estatePicture1": "1200000",
+    "estatePicture2": "115000",
+    "estatePicture3": "110000",
+    "estatePicture4": "105000",
+    "totalFloor": "20",
+    "houseType": "2室1厅",
+    "buyingRestrictions": true,
+    "creditRestrictions": true,
+    "existingFlag": true,
+    "ownershipLife": "60",
+    "buildingDeveloper": "绿城地产",
+    "estateDesc": "作为一家具有社会责任感的公司，绿城始终密切关注中国社会的发展与变化。在绿城看来，企业的社会责任并不是企业的额外负担，而是企业生存的必要条件，是企业进一步发展的内在要求。企业首先应承担好自身经营管理责任，只有把企业自身做好，通过不断做大做强，在增加利润的同时，增加税收、增加就业、再就业，才会有能力承担更多社会责任。绿城认为，将“先天下之忧而忧，后天下之乐而乐”的中国传统文化与现代观念相结合，是中国企业社会责任的最好表现。从创立之日起，绿城便将“优秀企业公民”作为公司立身的基础，视公益事业为最智慧的散财之道，致力于传承最荣耀的公益精神。"
+  },
+  "nonBizError": true
+}

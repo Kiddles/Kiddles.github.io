@@ -1,0 +1,44 @@
+{
+  "code": "string",
+  "message": "string",
+  "data": {
+    "pageNum": 0,
+    "pageSize": 0,
+    "size": 0,
+    "startRow": 0,
+    "endRow": 0,
+    "total": 0,
+    "pages": 0,
+    "list": [
+      {
+        "userCode": "13223",
+        "userName": "mamao",
+        "passWord": "123",
+        "roleName": "超级管理员",
+        "createTime": "string"
+      },
+      {
+        "userCode": "13224",
+        "userName": "mamao1",
+        "passWord": "123",
+        "roleName": "管理员",
+        "createTime": "string"
+      }
+    ],
+    "prePage": 0,
+    "nextPage": 0,
+    "isFirstPage": true,
+    "isLastPage": true,
+    "hasPreviousPage": true,
+    "hasNextPage": true,
+    "navigatePages": 0,
+    "navigatepageNums": [
+      0
+    ],
+    "navigateFirstPage": 0,
+    "navigateLastPage": 0,
+    "firstPage": 0,
+    "lastPage": 0
+  },
+  "nonBizError": true
+}

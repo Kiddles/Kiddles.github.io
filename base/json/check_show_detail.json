@@ -1,0 +1,16 @@
+{
+  "code": "string",
+  "message": "string",
+  "data": {
+    "id": 0,
+    "performanceId": "string",
+    "performanceName": "绿城",
+    "performanceType": "即时拍",
+    "performanceFrontPic": "../static/img/img.jpg",
+    "performanceTopPic": null,
+    "startTime": "2017-05-03T07:39:41.333Z",
+    "endTime": "2017-05-03T07:39:41.333Z",
+    "estateAmountLimit": 0
+  },
+  "nonBizError": true
+}

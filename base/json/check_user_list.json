@@ -1,0 +1,41 @@
+{
+  "code": "string",
+  "message": "string",
+  "data": {
+    "pageNum": 0,
+    "pageSize": 0,
+    "size": 0,
+    "startRow": 0,
+    "endRow": 0,
+    "total": 0,
+    "pages": 0,
+    "list": [
+      {
+        "personId": 0,
+        "userName": "sunshine",
+        "userRealName": "string",
+        "applicantTime": "2017-05-03T09:58:14.432Z",
+        "approveStatus": "string",
+        "approveStatusName": "string",
+        "noApprovedReason": "string",
+        "approveTime": "2017-05-03T09:58:14.432Z",
+        "approver": "string"
+      }
+    ],
+    "prePage": 0,
+    "nextPage": 0,
+    "isFirstPage": true,
+    "isLastPage": true,
+    "hasPreviousPage": true,
+    "hasNextPage": true,
+    "navigatePages": 0,
+    "navigatepageNums": [
+      0
+    ],
+    "navigateFirstPage": 0,
+    "navigateLastPage": 0,
+    "firstPage": 0,
+    "lastPage": 0
+  },
+  "nonBizError": true
+}

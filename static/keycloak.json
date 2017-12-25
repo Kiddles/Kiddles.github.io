@@ -1,0 +1,9 @@
+{
+  "realm": "bsoa",
+  "auth-server-url": "http://172.16.131.27/auth",
+  "ssl-required": "external",
+  "resource": "bsoa",
+  "credentials": {
+    "secret": "33e20bb6-db74-4b1e-8ca8-d5255c1b6e29"
+  }
+}

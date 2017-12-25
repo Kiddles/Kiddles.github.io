@@ -1,0 +1,42 @@
+{
+  "code": "string",
+  "message": "string",
+  "data": {
+    "pageNum": 0,
+    "pageSize": 0,
+    "size": 0,
+    "startRow": 0,
+    "endRow": 0,
+    "total": 0,
+    "pages": 0,
+    "list": [
+      {
+        "performanceId": 0,
+        "performanceName": "string",
+        "performanceType": "string",
+        "performanceStatus": "string",
+        "applicant": "string",
+        "startTime": "2017-05-02T02:12:51.375Z",
+        "endTime": "2017-05-02T02:12:51.376Z",
+        "hotFlag": true,
+        "enrollNum": 0,
+        "estateAmountLlimit": 0
+      }
+    ],
+    "prePage": 0,
+    "nextPage": 0,
+    "isFirstPage": true,
+    "isLastPage": true,
+    "hasPreviousPage": true,
+    "hasNextPage": true,
+    "navigatePages": 0,
+    "navigatepageNums": [
+      0
+    ],
+    "navigateFirstPage": 0,
+    "navigateLastPage": 0,
+    "firstPage": 0,
+    "lastPage": 0
+  },
+  "nonBizError": true
+}

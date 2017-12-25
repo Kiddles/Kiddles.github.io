@@ -1,0 +1,24 @@
+{
+  "code": "string",
+  "message": "string",
+  "data": {
+    "enterpriseId": 0,
+    "loginName": "string",
+    "enterpriseName": "绿城公司",
+    "enterpriseLogo": null,
+    "mainBusiness": "新房",
+    "contactPersonName": "倪小毛",
+    "contactPersonMobile": "12345678912",
+    "contactAddress": "浙江省杭州市下城区",
+    "corporationName": "string",
+    "corporationIdNo": "string",
+    "idCardValid": "string",
+    "corporationIdFrontImg": "string",
+    "corporationIdOppositeImg": "string",
+    "corporationIdHandleImg": "string",
+    "creditLicenceCode": "string",
+    "licenceValid": "string",
+    "licenceImg": "string"
+  },
+  "nonBizError": true
+}
