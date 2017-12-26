@@ -5,10 +5,10 @@ Vue.use(Router);
 
 export default new Router({
     routes: [
-    {
+    /*{
         path: '/',
         redirect: '/index'
-    },
+    },*/
     {
         path: '/index',
         component: resolve => require(['../components/page/index.vue'], resolve),
