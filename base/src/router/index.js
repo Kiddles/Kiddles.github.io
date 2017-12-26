@@ -10,7 +10,7 @@ export default new Router({
         redirect: '/index'
     },
     {
-        path: '/',
+        path: '/index',
         component: resolve => require(['../components/page/index.vue'], resolve),
 
     },

@@ -31,7 +31,7 @@ function filter_null(o) {
 */
 function _api_base(method, url, params, success, failure ,ismock,form, noupload) {
   // console.log('***************************keycloak.authenticated' + keycloak.authenticated + '*****************************');
-  if (keycloak.authenticated) {
+  /*if (keycloak.authenticated) {
       keycloak.updateToken(30).success(function () {
         console.log('update token success!!!')
       }).error(function () {
@@ -41,7 +41,7 @@ function _api_base(method, url, params, success, failure ,ismock,form, noupload)
   } else {
     keycloak.login();
     return;
-  }
+  }*/
   if(!noupload){
     var r = request(method, url);
   }
@@ -51,10 +51,10 @@ function _api_base(method, url, params, success, failure ,ismock,form, noupload)
   else{
     var r = request(method, url).type('application/json;charset=utf-8');
   }
-  var token;
-  if (keycloak.authenticated) {
+  var token = 'ddddddd';
+ /* if (keycloak.authenticated) {
     token = keycloak.token;
-  }
+  }*/
   //console.log("request token：" + token);
   if(!!token){
     r.set('Authorization','Bearer ' + token);
