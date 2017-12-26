@@ -9,10 +9,15 @@ export default new Router({
         path: '/',
         redirect: '/index'
     },*/
-    {
-        path: '/index',
-        component: resolve => require(['../components/page/index.vue'], resolve),
+        {
+            path: '/index',
+            component: resolve => require(['../components/page/index.vue'], resolve),
 
-    },
+        },
+        {
+            path: '/myTime',
+            component: resolve => require(['../components/page/myTime.vue'], resolve),
+
+        },
     ]
 })
