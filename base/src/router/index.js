@@ -19,5 +19,10 @@ export default new Router({
             component: resolve => require(['../components/page/myTime.vue'], resolve),
 
         },
+         {
+            path: '/myTree',
+            component: resolve => require(['../components/page/myTree.vue'], resolve),
+
+        },
     ]
 })

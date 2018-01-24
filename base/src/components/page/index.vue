@@ -1,12 +1,12 @@
 <template>
-	<div>
-		<canvas id="canvas"></canvas>
-		<div>
+	<div class="content">
+		<div class="nav">
 			<ul class="nav-right">
-				<li @click="goTime">Know time</li>
-				<li>Know me</li>
+				<li @click="goTime"><i class="fa fa-hand-o-right"></i>Know time</li>
+				<li><i class="fa fa-hand-o-right"></i>Know me</li>
 			</ul>
 		</div>
+		<div class="main"></div>
 	</div>
 </template>
 <script type="text/javascript">
@@ -22,42 +22,10 @@ export default {
 	},
 	methods:{
 		goTime: function () {
-			this.$route.push('/myTime');
+			this.$router.push('/myTime');
 		}
 	}
 }
 </script>
-<style type="scss">
-
-body {
-
-	padding: 0;
-
-	margin: 0;
-
-	overflow: hidden;
-
-	background: #fff;
-
-	font-family: Courier;
-
-}
-canvas {
-
-	background-color: #000;
-
-	cursor: pointer;
-
-}
-.nav-right {
-	position: fixed;
-    top: 100px;
-    right: 0px;
-    width: 128px;
-    color: #fff;
-    list-style-type: none;
-    li {
-    	height: 28px;
-    }
-}
+<style lang="scss">
 </style>

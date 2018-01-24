@@ -80,7 +80,7 @@ export default {
 
 				var ctx = this.ctx;
 
-				var f = Branch.random(1, 2)
+				var f = Branch.random(3, 5)
 
 				for (var i = 0; i < 5; i++) {
 
@@ -194,11 +194,11 @@ export default {
 
 			fork: function () {
 
-				var p = this.length - Branch.random(100, 200); // + (this.generation * 10);
+				var p = this.length - Branch.random(150, 200); // + (this.generation * 10);
 
 				if (p > 0) {
 
-					var n = Math.round(Branch.random(1, 3));
+					var n = Math.round(Branch.random(3, 5));
 
 					this.tree.stat.fork += n - 1;
 
@@ -342,9 +342,10 @@ export default {
 			var $window = $(window);
 
 			var $body = $("body");
-
 			var canvas_width = $window.width();
-
+			if ($window.width() < 920) {
+				canvas_width = 920;
+			}
 			var canvas_height = $window.height() - 30;
 
 			var center_x = canvas_width / 2;
@@ -381,7 +382,7 @@ export default {
 
 			t.init(ctx);
 
-			for (var i = 0; i < 3; i++) {
+			for (var i = 0; i < 5; i++) {
 
 				new Branch(new Vector(center_x, canvas_height), new Vector(Math.random(-1, 1), -y_speed), 15 / stretch_factor, Branch.randomrgba(0, 255, 0.3), t);
 
